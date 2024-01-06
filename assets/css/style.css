@@ -1,3 +1,16 @@
-.w_100{
-    width: 100% !important;
+@media(min-width:600px){
+    .top-navbar{
+        box-shadow: 0 0 50px gray !important;
+    }
+    #top-action-section{
+        display: flex !important;
+        align-items: center !important;
+    }
+}
+
+.users-list-item.active .users_list_arrow_icon{
+transform: rotate(180deg);
+}
+.users-list-item.active{
+background-color: rgba(126, 124, 124, 0.349);
 }
